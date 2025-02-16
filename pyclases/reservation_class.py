@@ -77,7 +77,7 @@ class Reservation:
                 break
         if reservation_id:
             del data[reservation_id]
-            cls.helpers.save_data(cls.class_folder, cls.file, data)        
+            cls.helpers.save_data(cls.class_folder, cls.file, data)
             for h_id, hotel in hotels.items():
                 if hotel["name"] == hotel_name.lower():
                     hotels_id = h_id

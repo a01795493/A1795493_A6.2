@@ -78,8 +78,8 @@ class Customer:
         data = cls.helpers.load_data(cls.class_folder, cls.file)
         for _, customer in data.items():
             if customer["name"] == customer_name.lower():
-                return(f"Customer Name: {customer['name']}, "
-                      f"Customer Email: {customer['email']}")
+                return (f"Customer Name: {customer['name']}, "
+                        f"Customer Email: {customer['email']}")
         return "Customer not found."
 
     @classmethod

@@ -84,7 +84,7 @@ class Hotel:
         data = cls.helpers.load_data(cls.class_folder, cls.file)
         for hotel in data.values():
             if hotel["name"] == name.lower():
-                return(
+                return (
                         f"Hotel Name: {hotel['name']}, "
                         f"Location: {hotel['location']}, "
                         f"Rooms: {hotel['rooms']}")

@@ -34,7 +34,6 @@ class TestHotelReservationSystem(unittest.TestCase):
             "Hotel already exists."
         ])
 
-
     def test_modify_hotel(self):
         """
         Test the modification of a hotel.
@@ -143,6 +142,7 @@ class TestHotelReservationSystem(unittest.TestCase):
                 "Hotel deleted successfully.",
                 "Hotel not found."
             ])
+
 
 if __name__ == "__main__":
     unittest.main()
